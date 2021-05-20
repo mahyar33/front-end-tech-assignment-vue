@@ -1,0 +1,15 @@
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 5px 1px #2b394094;
+  padding: 24px 16px;
+  z-index: 1;
+  font-size: 15px;
+  border-radius: 2px;
+
+  &__text {
+    color: var(--text-color);
+  }
+}

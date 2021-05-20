@@ -1,0 +1,15 @@
+.empty {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #7b7b7b;
+  }
+}

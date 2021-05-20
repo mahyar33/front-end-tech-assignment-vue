@@ -1,0 +1,15 @@
+.chart {
+  h4{
+    color: var(--text-color);
+  }
+
+  &-description {
+    color: #7b7b7b;
+    text-align: center;
+  }
+
+  .vue-highcharts {
+    width: 100%;
+    background-color: red;
+  }
+}

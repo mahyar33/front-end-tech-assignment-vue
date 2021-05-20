@@ -1,0 +1,28 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+
+  &__container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: calc(100% - 65px);
+  }
+
+  &__main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &-layout {
+      width: 95%;
+      margin: auto;
+    }
+  }
+}

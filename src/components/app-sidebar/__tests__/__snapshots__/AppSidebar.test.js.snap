@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<app-sdiber-link /> should match snapshot 1`] = `
+<aside
+  class="app-sidebar"
+>
+  <ul
+    class="app-sidebar__menu"
+  >
+    
+    
+  </ul>
+</aside>
+`;

@@ -1,0 +1,59 @@
+.app-sidebar-link {
+  display: flex;
+  flex-direction: column;
+
+  .active {
+    background-color: #24a0f547;
+    color: #01b2f5;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    border: solid var(--icon-color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  &__icon.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  &__icon.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    cursor: pointer;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    box-sizing: border-box;
+    width: 256px;
+
+    &:hover {
+      background-color: #24a0f547;
+      color: #01b2f5;
+    }
+
+    &-title {
+      div {
+        padding-left: 30px;
+      }
+
+      position: relative;
+      line-height: 1.5em;
+    }
+  }
+
+  &__list {
+    padding: 0;
+  }
+}
